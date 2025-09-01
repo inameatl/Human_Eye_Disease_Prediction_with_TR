@@ -1,4 +1,4 @@
-streamlit
+npm install
 tensorflow
 numpy
 pillow
