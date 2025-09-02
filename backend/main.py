@@ -20,7 +20,7 @@ app.add_middleware(
 )
 
 # Load model once at startup
-model = tf.keras.models.load_model(r"C:\xray disease\Expariments\Human_Eye_Disease_Prediction_with_react\model\Trained_Model.keras")
+model = tf.keras.models.load_model(r".\model\Trained_Model.keras")
 class_names = ['CNV', 'DME', 'DRUSEN', 'NORMAL']
 
 @app.post("/predict")
